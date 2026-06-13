@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v2Mem Labs | Çok Yakında</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            animation: fadeIn 1.2s ease-out;
+        }
+
+        .logo {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            color: #38bdf8;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #64748b;
+            letter-spacing: 1px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Mobil cihazlar için optimizasyon */
+        @media (max-width: 480px) {
+            .logo { font-size: 2.2rem; }
+            h1 { font-size: 1.8rem; }
+            p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo Alanı -->
+        <div class="logo">v2Mem Labs</div>
+        <div class="tagline">Future of Memory & Innovation</div>
+
+        <!-- Durum Rozeti -->
+        <div class="status-badge">Sistemler Hazırlanıyor</div>
+
+        <!-- Ana Mesaj -->
+        <h1>Çok Yakında Hizmetinizdeyiz</h1>
+        <p>Geleceğin teknolojilerini ve laboratuvar projelerimizi inşa ediyoruz. Detaylar ve ilk lansman için takipte kalın.</p>
+
+        <!-- Alt Bilgi -->
+        <div class="footer">
+            &copy; 2026 v2Mem Labs. Tüm hakları saklıdır.
+        </div>
+    </div>
+
+</body>
+</html>
